@@ -20,6 +20,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import 'flowbite'; // Import Flowbite JS
 import Products from './pages/product';
+import Home from './pages/home';
 
 function App() {
   useEffect(() => {
@@ -46,6 +47,7 @@ function App() {
             <Route path="/test" element={<Test />} />
             <Route path='/services' element={<Services />} />
             <Route path='/product' element={<Products />} />
+            <Route path='/home' element={<Home />} />
           </Routes>
         </main>
         <Footer />
